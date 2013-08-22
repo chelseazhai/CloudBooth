@@ -1,0 +1,38 @@
+/* 
+  Localizable.strings
+  CloudBooth
+
+  Created by Ares on 13-8-9.
+  Copyright (c) 2013年 watermelontech. All rights reserved.
+*/
+
+// tab and contents
+"index tab bar item title" = "Index";
+"favorite tab bar item title" = "Favorite";
+"recent tab bar item title" = "Recent";
+
+// index tab content
+//
+
+// favorite tab content
+"favorite tab content table view controller nav title" = "My Favorite List";
+
+// recent tab content
+"recent tab content table view controller nav title" = "Recent Shared List";
+
+// exhibit detail info
+"exhibit detail info view controller nav default title" = "Detail Info";
+"exhibit detail info tag format string" = "Tag:%@";
+"exhibit detail info content format string" = "Content:%@";
+"exhibit detail info file list tip string" = "Exhibit Files:";
+
+// exhibit detail info operation
+"exhibit detail info operation view top banner label view text" = "Function Operation";
+"exhibit detail info operation view operation section title" = "Operation";
+"exhibit detail info operation view exhibit section title" = "Exhibit URL";
+
+"exhibit detail info collect operation" = "Collect";
+"exhibit detail info download operation" = "Download";
+"exhibit detail info share operation" = "Share";
+"exhibit detail info exhibit operation" = "Exhibit";
+"exhibit detail info cancel exhibit operation" = "Cancel Exhibit";

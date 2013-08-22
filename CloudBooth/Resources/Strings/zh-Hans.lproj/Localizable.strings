@@ -1,0 +1,38 @@
+/* 
+  Localizable.strings
+  CloudBooth
+
+  Created by Ares on 13-8-9.
+  Copyright (c) 2013年 watermelontech. All rights reserved.
+*/
+
+// Tab标签和内容
+"index tab bar item title" = "资料";
+"favorite tab bar item title" = "收藏";
+"recent tab bar item title" = "最近";
+
+// 所有资料Tab
+//
+
+// 我的收藏列表Tab
+"favorite tab content table view controller nav title" = "我的收藏";
+
+// 最近分享列表Tab
+"recent tab content table view controller nav title" = "最近分享";
+
+// exhibit detail info
+"exhibit detail info view controller nav default title" = "详细信息";
+"exhibit detail info tag format string" = "标签：%@";
+"exhibit detail info content format string" = "简介：%@";
+"exhibit detail info file list tip string" = "展示文件：";
+
+// exhibit detail info operation
+"exhibit detail info operation view top banner label view text" = "功能操作";
+"exhibit detail info operation view operation section title" = "操作";
+"exhibit detail info operation view exhibit section title" = "共享地址";
+
+"exhibit detail info collect operation" = "收藏";
+"exhibit detail info download operation" = "下载";
+"exhibit detail info share operation" = "分享";
+"exhibit detail info exhibit operation" = "共享";
+"exhibit detail info cancel exhibit operation" = "取消共享";

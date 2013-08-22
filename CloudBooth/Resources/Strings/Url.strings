@@ -1,0 +1,19 @@
+/* 
+  Url.strings
+  CloudBooth
+
+  Created by Ares on 13-8-9.
+  Copyright (c) 2013年 watermelontech. All rights reserved.
+*/
+
+// remote background server root url
+"remote background server root url" = "http://www.tb189.cn";
+
+// data servlet url
+"data servlet url format" = "%@/Booth/servlet/BoothService";
+
+// booth file server url
+// common image file url
+"common image file url format" = "%@/Booth/boothfile/pdf/img";
+// quick response code file url
+"quick response code image file url format" = "%@/Booth/boothfile/pdf/qrimg";

@@ -1,0 +1,79 @@
+/* 
+  RBGServerField.strings
+  CloudBooth
+
+  Created by Ares on 13-8-12.
+  Copyright (c) 2013年 watermelontech. All rights reserved.
+*/
+
+// common
+"post http request param key action" = "action";
+"post http request param key user id" = "userid";
+"post http request param key company id" = "companyid";
+"post http request param key document id" = "docid";
+
+"get document, favorite and recent shared list request response data key id" = "id";
+"get document, favorite, recent shared list and document detail info request response data key title" = "title";
+"get document, favorite, recent shared list and document detail info request response data key content" = "content";
+"get document, favorite, recent shared list and document detail info request response data key thumbnail url" = "previewimgfileid";
+"get document, favorite and recent shared list request response data key number of been read" = "readnum";
+
+"get document detail info request response data key tag" = "tag";
+"get document detail info request response data key can download" = "isdownload";
+"get document detail info request response data key can exhibit" = "isprivate";
+"get document detail info request response data key can share" = "isshare";
+
+// document list
+"get document list post http request" = "selectDocList";
+
+// favorite list
+"get favorite list post http request" = "selectFavoritesDoc";
+
+// recent shared list
+"get recent shared list post http request" = "selectDocList";
+"get recent shared list post http request param key last tag" = "lasttag";
+
+// document detail info
+"get document detail info post http request" = "selectDocDetail";
+
+// document detail info file list
+"get document detail info file list post http request" = "selectFileList";
+
+"get document detail info file list request response data key file id" = "id";
+"get document detail info file list request response data key document id" = "documentid";
+"get document detail info file list request response data key file name" = "oldfilename";
+"get document detail info file list request response data key file suffix" = "filesuffix";
+
+"collect, exhibit and cancel exhibit document request response data key status" = "status";
+"collect, exhibit and cancel exhibit document request response status ok" = "ok";
+
+// collect document
+"collect document post http request" = "favoritesDoc";
+
+// exhibit document
+"exhibit document post http request" = "createAndGetDocSession";
+"exhibit document post http request param key exhibit location x" = "googleX";
+"exhibit document post http request param key exhibit location y" = "googleY";
+
+"exhibit document request response data key session id" = "sessionid";
+
+// cancel exhibit document
+"cancel exhibit document post http request" = "CancelSession";
+"cancel exhibit document post http request param key session id" = "sessionid";
+
+// document detail info file image
+"get document detail info file image post http request" = "getFileImg";
+"get document detail info file image post http request param key file id" = "fileid";
+
+"get document detail info file image request response data key number of images" = "imgpagenum";
+"get document detail info file image request response data key file type" = "filetype";
+
+"document detail info picture file suffixes" = "jpg|png";
+"document detail info office doc file suffixes" = "doc|docx";
+"document detail info office ppt file suffixes" = "ppt|pptx";
+"document detail info video media file suffixes" = "mp4|3gp";
+
+// set notify exhibit file image page
+"set document detail info exhibit file image page post http request" = "setPageNumber";
+"set document detail info exhibit file image page post http request param key image page index" = "thisImgNumber";
+"set document detail info exhibit file image page post http request param key file type" = "filetype";
