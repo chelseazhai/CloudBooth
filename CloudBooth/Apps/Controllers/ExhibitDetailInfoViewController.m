@@ -84,9 +84,9 @@
 
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
- 
-    // set fuction button item in the navigation bar as right bar button item
-    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"img_functionButtonItem"] style:UIBarButtonItemStylePlain target:self action:@selector(show6HideFunctionView:)];
+    
+    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
+    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     
     // init swipe left and right gesture recognizer
     UISwipeGestureRecognizer *_swipeLeftGestureRecognizer = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(handleGesture:)];
@@ -489,6 +489,9 @@
 
 - (void)doneCheckExhibitDetailInfoCanCollect
 {
+    // set fuction button item in the navigation bar as right bar button item
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"img_functionButtonItem"] style:UIBarButtonItemStylePlain target:self action:@selector(show6HideFunctionView:)];
+    
     // init exhibit detail info function view
     _functionView = [[ExhibitDetailInfoFunctionView alloc] initWithDetailInfo:_exhibitDetailInfo parentView:self.tableView.superview];
 }
