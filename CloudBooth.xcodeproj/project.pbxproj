@@ -209,10 +209,10 @@
 		DC75C8BD17B48C2400FD4179 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				DC75C8E217B48DAA00FD4179 /* InfoPlist.strings */,
 				DC75C8BE17B48C2400FD4179 /* CloudBooth-Info.plist */,
-				DC75C8C217B48C2400FD4179 /* main.m */,
 				DC75C8C417B48C2400FD4179 /* CloudBooth-Prefix.pch */,
+				DC75C8E217B48DAA00FD4179 /* InfoPlist.strings */,
+				DC75C8C217B48C2400FD4179 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
