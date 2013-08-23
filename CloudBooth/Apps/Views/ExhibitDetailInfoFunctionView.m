@@ -128,7 +128,7 @@
         
         // set background view and its color
         _functionOperationTableView.backgroundView = [[UIView alloc] init];
-        _functionOperationTableView.backgroundView.backgroundColor = [UIColor lightGrayColor];
+        _functionOperationTableView.backgroundView.backgroundColor = [UIColor colorWithWhite:0.75 alpha:1.0];
         
         // set data source and delegate
         _functionOperationTableView.dataSource = self;

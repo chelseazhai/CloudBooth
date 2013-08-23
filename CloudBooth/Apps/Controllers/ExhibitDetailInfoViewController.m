@@ -529,8 +529,12 @@
     if (nil != _functionView) {
         // get and check function button item tag
         if (FUNCTIONBUTTONITEM_HIDDENTAG == functionButtonItem.tag) {
-            // show function view
-            //self.navigationController.view.center = CGPointMake(self.navigationController.view.center.x - _functionView.width, self.navigationController.view.center.y);
+//            // show function view
+//            self.navigationController.view.center = CGPointMake(self.navigationController.view.center.x - _functionView.width, self.navigationController.view.center.y);
+//            
+//            // test by ares
+//            UITableView *_testTableView = [[UITableView alloc] initWithFrame:CGRectMake(320.0, 20.0, 270.0, 460.0)];
+//            [self.navigationController.view addSubview:_testTableView];
             
             // show function view using animation
             [UIView beginAnimations:nil context:nil];
