@@ -301,8 +301,8 @@
             // exhibit document
             // set param key and value
             [_paramDic setObject:NSRBGServerFieldString(@"exhibit document post http request", nil) forKey:NSRBGServerFieldString(@"post http request param key action", nil)];
-            [_paramDic setObject:[NSNumber numberWithDouble:_location2DCoordinate.longitude] forKey:NSRBGServerFieldString(@"exhibit document post http request param key exhibit location x", nil)];
-            [_paramDic setObject:[NSNumber numberWithDouble:_location2DCoordinate.latitude] forKey:NSRBGServerFieldString(@"exhibit document post http request param key exhibit location y", nil)];
+            [_paramDic setObject:[NSNumber numberWithDouble:_location2DCoordinate.latitude] forKey:NSRBGServerFieldString(@"exhibit document post http request param key exhibit location x", nil)];
+            [_paramDic setObject:[NSNumber numberWithDouble:_location2DCoordinate.longitude] forKey:NSRBGServerFieldString(@"exhibit document post http request param key exhibit location y", nil)];
             [_paramDic setObject:_exhibitDetailInfo.id forKey:NSRBGServerFieldString(@"post http request param key document id", nil)];
             [_paramDic setObject:[NSNumber numberWithInt:1] forKey:NSRBGServerFieldString(@"post http request param key user id", nil)];
             [_paramDic setObject:[NSNumber numberWithInt:1] forKey:NSRBGServerFieldString(@"post http request param key company id", nil)];
